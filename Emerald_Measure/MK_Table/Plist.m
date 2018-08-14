@@ -37,6 +37,7 @@
             item.value      = [dic objectForKey:@"Value"];
             item.result     = [dic objectForKey:@"Result"];
             item.isTest     = [[dic objectForKey:@"IsTest"] boolValue];
+            item.isShow     = [[dic objectForKey:@"IsShow"] boolValue];
             item.testAllCommand =[dic objectForKey:@"AllNeedCommands"];
             
             [testItems addObject:item];
